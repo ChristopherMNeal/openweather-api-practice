@@ -1,9 +1,23 @@
-<!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
-  <title></title>
+  <title>Weather</title>
 </head>
 <body>
-  <h1></h1>
+  <div class="container">
+    <h1>Get Weather Conditions From Anywhere!</h1>
+    <label for="location">Enter a location:</label>
+    <input id="location" type="text">
+    <button class="btn-success" id="weatherLocation">Get Current Temperature and Humidity</button>
+    <div class="showErrors"></div>
+    <div class="showHumidity"></div>
+    <div class="showTemp"></div>
+    <h1>Get Weather Conditions From Designated lattitude and longitude!</h1>
+    <label for="LAT">Enter Lattitude</label>
+    <input id="LAT" type="text">
+    <label for="LON">Enter a Longitude</label>
+    <input id="LON" type="text">
+    <button class="btn-success" id="LATlocation">Get Current Tempature of Lattitude and Longitude!</button>
+    
+  </div>
 </body>
 </html>
